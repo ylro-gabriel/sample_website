@@ -5,12 +5,18 @@
         <meta charset="utf-8">
     </head>
     <body>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="mody_dick.html">Moby Dick</a>
+            <a href="tags.html">HTML Tags</a>
+        </div>
+
         <h1>Important HTML tags</h1>
         
         <a href="https://www.flickr.com/photos/jdhancock/3814523970"
         target="_blank" rel="noopener">
         <img src="images/astronaut_tagged.jpg" alt="Tagged Astronaut"
-        width="500px">
+        width="250">
         </a>
         <!-- lagyan later -->
 
@@ -32,48 +38,72 @@
 
         <h2>Block Elements</h2>
         
-        <table>
+        <div>
+            <!-- Ordered list -->
+            <ol>
+            <table>
+
             <tr>
+                <th></th>
                 <th>Tag</th>
                 <th>Name</th>
                 <th>Purpose</th>
-            </tr>
+            </tr>        
+
             <tr>
+                <td><li></li></td>
                 <td><code>h1</code>&ndash;<code>h6</code></td>
                 <td>headings</td>
                 <td>include a heading (levels 1&ndash;6)</td>
             </tr>
-            <tr>
+                
+             <tr>
+                <td><li></li></td>
                 <td><code>p</code></td>
                 <td>paragraph</td>
                 <td>include a paragraph of text</td>
             </tr>
+         
             <tr>
+                <td><li></li></td>
                 <td><code>table</code></td>
                 <td>table</td>
                 <td>include a table</td>
             </tr>
+
             <tr>
+                <td><li></li></td>
                 <td><code>tr</code></td>
                 <td>table row</td>
                 <td>include a row of data</td>
             </tr>
+
             <tr>
+                <td><li></li></td>
                 <td><code>th</code></td>
                 <td>table header</td>
                 <td>make a table header</td>
             </tr>
+
             <tr>
+                <td><li></li></td>
                 <td><code>td</code></td>
                 <td>table data</td>
                 <td>include a table data cell</td>
             </tr>
-        </table>
+
+            </table>
+            </ol>
+        </div>
 
         <h2>Inline Elements</h2>
 
-        <table>
+        <div>
+            <!-- Unordered list -->
+            <ul>
+            <table>
             <tr>
+                <th></th>
                 <th>Tag</th>
                 <th>Name</th>
                 <th>Purpose</th>
@@ -81,16 +111,57 @@
                 <th>Result</th>
             </tr>
             <tr>
+                <td><li></li></td>
                 <td><code>em</code></td>
                 <td>emphasized</td>
                 <td>make emphasized text</td>
                 <td><code>&lt;em&gt;technical sophistication
-                    &lt;/em&gt;
-                <td><em>technical sophistication</em></td>
+                    &lt;/em&gt;</code></td>
+                <td><code><em>technical sophistication</em>
                 </code></td>
             </tr>
+                <tr>
+                    <td><li></li></td>
+                    <td><code>strong</code></td>
+                    <td>strong</td>
+                    <td>make strong text</td>
+                    <td>
+                        <code>
+                            &lt;strong&gt;at least a billion
+                            people&lt;/strong&gt;
+                        </code>
+                    </td>
+                    <td><strong>at least a billion people</strong></td>
+                </tr>
+                <tr>
+                    <td><li></li></td>
+                    <td><code>a</code></td>
+                    <td>anchor</td>
+                    <td>make hyperlink</td>
+                    <td>
+                        <code>
+                            &lt; a href="https://learnenough.com/"
+                            &gt;Learn Enough&lt;/a&gt;
+                        </code>
+                    </td>
+                    <td><a href="https://learnenough.com/" target="_blank" rel="noopener">Learn Enough</a></td>
+                </tr>
+                <tr>
+                    <td><li></li></td>
+                    <td><code>img</code></td>
+                    <td>image</td>
+                    <td>include image</td>
+                    <td>
+                        <code>
+                            &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+                        </code>
+                    </td>
+                    <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+                </tr>
 
-        </table>
+            </table>
+            </ul>
+        </div>
 
     </body>
 </html>
