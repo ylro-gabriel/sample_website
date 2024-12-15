@@ -2,7 +2,32 @@
 .nav-spacing{
      margin: 0 0 0 10px;
                 }
+
 .nav-menu{
     text-align: right;
+    text-decoration: none;
+    text-decoration: ;
                 }
+
+.image-link{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+.image-sperm{
+    margin: 0 auto; 
+    display: block;
+    text-align: center;
+    height: 300px;
+}
       
+.image-cover{
+    height:200px;
+    margin: 0 40px 0 0;
+    float: left;
+}
+
+#founders{
+    
+}
